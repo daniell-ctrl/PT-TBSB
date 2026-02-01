@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Tujuh Bersaudara | Premier Gadai Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #D4AF37; --dark: #0F0F0F; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--dark); color: white; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(212, 175, 55, 0.1); backdrop-filter: blur(12px); }
+        .gold-border { border: 1px solid rgba(212, 175, 55, 0.3); }
+        .nav-blur { background: rgba(15, 15, 15, 0.8); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(212, 175, 55, 0.1); }
+        .hover-gold:hover { border-color: #D4AF37; box-shadow: 0 0 20px rgba(212, 175, 55, 0.2); transition: all 0.4s ease; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-[100] nav-blur py-5 px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-gradient-to-tr from-[#BF953F] to-[#AA771C] rounded-full flex items-center justify-center shadow-lg shadow-yellow-900/20 font-bold text-black italic">TB</div>
+                <div>
+                    <h1 class="text-xl font-extrabold tracking-tighter leading-none italic uppercase serif">PT Tujuh Bersaudara</h1>
+                    <p class="text-[10px] text-[#D4AF37] tracking-[0.3em] font-semibold uppercase">Premier Financial Solutions</p>
+                </div>
+            </div>
+            <div class="hidden lg:flex space-x-10 text-[11px] font-bold uppercase tracking-[0.2em] items-center">
+                <a href="#home" class="hover:text-[#D4AF37] transition">Beranda</a>
+                <a href="#layanan" class="hover:text-[#D4AF37] transition">Layanan Eksklusif</a>
+                <a href="#simulasi" class="hover:text-[#D4AF37] transition">Simulasi</a>
+                <a href="https://wa.me/6283111597115" class="px-6 py-2 border gold-border text-[#D4AF37] rounded-full hover:bg-[#D4AF37] hover:text-black transition duration-500">Hubungi Konsultan</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative min-h-screen flex items-center pt-20 px-8 overflow-hidden">
+        <div class="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-[#D4AF37] opacity-[0.03] blur-[150px] rounded-full"></div>
+        <div class="container mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-10">
+                <div class="inline-flex items-center space-x-3 px-4 py-2 glass-card rounded-full border border-yellow-900/30">
+                    <i class="fas fa-crown text-[#D4AF37] text-xs"></i>
+                    <span class="text-[10px] font-bold tracking-[0.3em] uppercase text-gray-300">Layanan Gadai Kelas Atas di Jambi</span>
+                </div>
+                <h2 class="text-6xl lg:text-8xl font-bold leading-[1.1] serif">
+                    Solusi Finansial <br><span class="gold-gradient italic">Cepat & Terpercaya.</span>
+                </h2>
+                <p class="text-gray-400 text-lg font-light leading-relaxed max-w-xl">
+                    Menghadirkan standar baru dalam layanan pegadaian. Proses transparan dengan keamanan aset maksimal untuk kendaraan mewah, elektronik, dan perhiasan Anda.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6 pt-4">
+                    <a href="https://wa.me/6283111597115" class="px-10 py-5 bg-[#D4AF37] text-black font-extrabold rounded-full text-center hover:scale-105 transition shadow-[0_10px_30px_rgba(212,175,55,0.3)]">AJUKAN SEKARANG</a>
+                    <a href="#layanan" class="px-10 py-5 glass-card font-bold rounded-full text-center hover:bg-white/5 transition border-white/10">PELAJARI LAYANAN</a>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-[#D4AF37] to-transparent opacity-20 blur rounded-[2rem]"></div>
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1000" alt="Luxury Finance" class="relative rounded-[2rem] border border-white/10 grayscale-[30%] group-hover:grayscale-0 transition duration-700">
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-32 px-8 bg-[#0a0a0a]">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-20 gap-8">
+                <div class="space-y-4">
+                    <h3 class="text-[#D4AF37] font-bold tracking-[0.4em] uppercase text-xs">Katalog Jaminan</h3>
+                    <h2 class="text-4xl md:text-5xl font-bold serif italic text-white">Aset Yang Kami Layani</h2>
+                </div>
+                <p class="text-gray-500 max-w-md text-sm leading-relaxed uppercase tracking-widest">Setiap barang berharga Anda adalah modal masa depan. Kami menghargainya lebih dari siapapun di Jambi.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-12 rounded-[3rem] hover-gold transition-all group">
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-10 bg-white/5 group-hover:bg-[#D4AF37] transition duration-500">
+                        <i class="fas fa-car-side text-2xl text-[#D4AF37] group-hover:text-black"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-5 serif">Kendaraan Mewah</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-8">Menerima unit atau BPKB Motor dan Mobil dengan plafon pencairan tertinggi dan bunga yang kompetitif.</p>
+                </div>
+                <div class="glass-card p-12 rounded-[3rem] hover-gold border-[#D4AF37]/50 bg-[#D4AF37]/5 transition-all group">
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-10 bg-[#D4AF37]">
+                        <i class="fas fa-laptop-code text-2xl text-black"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-5 serif">High-End Gadget</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-8">Gadai iPhone terbaru, MacBook, atau Kamera Profesional dengan pengecekan instan di tempat (10-15 menit cair).</p>
+                </div>
+                <div class="glass-card p-12 rounded-[3rem] hover-gold transition-all group">
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-10 bg-white/5 group-hover:bg-[#D4AF37] transition duration-500">
+                        <i class="fas fa-vault text-2xl text-[#D4AF37] group-hover:text-black"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-5 serif">Barang Elektronik</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-8">Menerima TV LED besar, Kulkas, dan barang elektronik rumah tangga lainnya dengan sistem penyimpanan profesional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulasi" class="py-32 px-8 bg-black">
+        <div class="container mx-auto max-w-4xl">
+            <div class="glass-card p-12 rounded-[4rem] text-center space-y-8 gold-border">
+                <h2 class="text-3xl font-bold serif italic">Estimasi Pinjaman Instan</h2>
+                <div class="grid md:grid-cols-2 gap-8 text-left">
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gray-500 mb-3 font-bold">Kategori Barang</label>
+                        <select class="w-full bg-white/5 border border-white/10 p-4 rounded-2xl focus:outline-none focus:border-[#D4AF37] appearance-none">
+                            <option>Kendaraan (Mobil/Motor)</option>
+                            <option>Smartphone / Tablet</option>
+                            <option>Laptop / MacBook</option>
+                            <option>Elektronik Lainnya</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase tracking-widest text-gray-500 mb-3 font-bold">Estimasi Harga Pasar</label>
+                        <input type="text" placeholder="Rp 0,00" class="w-full bg-white/5 border border-white/10 p-4 rounded-2xl focus:outline-none focus:border-[#D4AF37]">
+                    </div>
+                </div>
+                <div class="p-6 bg-[#D4AF37]/10 rounded-3xl border border-[#D4AF37]/20">
+                    <p class="text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-2 font-bold">Potensi Cair Hingga</p>
+                    <h3 class="text-4xl font-extrabold serif text-white">Cair 90% Nilai Aset</h3>
+                </div>
+                <a href="https://wa.me/6283111597115" class="block w-full py-5 bg-white text-black font-bold rounded-2xl hover:bg-[#D4AF37] transition duration-500 uppercase tracking-widest text-sm">Konsultasikan Detail Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 px-8 border-t border-white/5">
+        <div class="container mx-auto grid md:grid-cols-3 gap-16">
+            <div class="space-y-6">
+                <h4 class="serif italic text-2xl">PT Tujuh Bersaudara</h4>
+                <p class="text-gray-500 text-sm uppercase tracking-widest leading-loose">Sukses Bersama dimulai dari kejujuran dan kepercayaan. Kami hadir untuk Jambi yang lebih sejahtera.</p>
+            </div>
+            <div class="space-y-6">
+                <h5 class="text-[#D4AF37] font-bold uppercase text-[10px] tracking-[0.4em]">Hubungi Kami</h5>
+                <ul class="space-y-4 text-gray-300 font-semibold">
+                    <li class="flex items-center"><i class="fab fa-whatsapp w-8 text-[#D4AF37]"></i> 0831-1159-7115</li>
+                    <li class="flex items-center"><i class="fas fa-location-dot w-8 text-[#D4AF37]"></i> Kota Jambi, Jambi</li>
+                </ul>
+            </div>
+            <div class="space-y-6">
+                <h5 class="text-[#D4AF37] font-bold uppercase text-[10px] tracking-[0.4em]">Jam Operasional</h5>
+                <p class="text-gray-400 text-sm italic">Senin - Sabtu: 08.00 - 17.00 WIB<br>Minggu & Tgl Merah: Hubungi WhatsApp Admin</p>
+            </div>
+        </div>
+        <div class="mt-20 pt-10 border-t border-white/5 text-center">
+            <p class="text-[10px] text-gray-600 tracking-[0.5em] font-bold uppercase">© 2026 PT Tujuh Bersaudara. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6283111597115" class="fixed bottom-10 right-10 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center text-white text-3xl shadow-[0_10px_40px_rgba(37,211,102,0.4)] hover:scale-110 transition z-[200]">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
